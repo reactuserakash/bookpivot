@@ -1,0 +1,74 @@
+.Today-section {
+    width: 100%;
+    background-image: url("./../../../../assets//images/today-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Today-section-container {
+    max-width: 85%;
+    margin: auto;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.today-section-book-icon {
+    width: 30px;
+}
+
+.todays-special-heading{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #7e7e7e;
+}
+
+.todays-special-subtopic {
+    width: 50%;
+    color: #a5a4a4;
+    margin-bottom: 30px;
+}
+
+.today-book-list {
+    list-style: none;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:768px) {
+    .Today-section {
+        height: auto;
+    }
+    
+    .Today-section-container {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .Today-section {
+        height: auto;
+    }
+
+    .Today-section-container {
+        height: auto;;
+    }
+
+    .today-section-book-icon {
+        width: 25px;
+    }
+    
+    .todays-special-heading{
+        font-size: 20px;
+        
+    }
+
+    .todays-special-subtopic {
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .today-book-list {
+        padding: 0;
+    }
+}

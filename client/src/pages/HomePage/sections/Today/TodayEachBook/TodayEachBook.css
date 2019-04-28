@@ -1,0 +1,51 @@
+.today-book-list-item {
+    display: inline-block;
+    margin: 0 20px;
+}
+.today-book-list-item-img {
+    height: 240px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+    border-radius: 4px;
+}
+
+.today-book-name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.today-author-name {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #808080;
+}
+
+.today-book-download-icon {
+    color: gray;
+    cursor: pointer;
+}
+
+.today-book-download-icon {
+    height: 17px;
+    margin-right: 4px;
+}
+
+@media only screen and (max-width:425px) {
+    .today-book-list-item {
+        width: 50%;
+        margin: 0px 0px;
+    }
+    .today-book-name {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .today-book-list-item-img {
+        height: 200px;
+    }
+    .today-book-list-item {
+        margin: 0px 0px;
+    }
+}

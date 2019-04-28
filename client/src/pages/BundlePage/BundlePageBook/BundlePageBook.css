@@ -1,0 +1,76 @@
+.bundle-page-book {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+.bundle-page-book-img {
+    height: 280px;
+    width: auto;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+    border-radius: 4px;
+}
+
+.bundle-page-book-name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bundle-page-author-name {
+    font-size: 13px;
+    margin-top: 5px;
+    color: #808080;
+    margin-bottom: 3px;
+}
+
+.download-href {
+    text-decoration: none;
+}
+
+.bundle-page-book-download-text {
+    margin-top: 0;
+    color: gray;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.bundle-page-book-download-icon {
+    height: 14px;
+    margin-right: 4px;
+}
+
+@media only screen and (max-width:425px) {
+    .bundle-page-book-img {
+        height: 170px;
+    }
+    .bundle-page-book {
+        margin: 20px;
+    }
+    .bundle-page-book-name {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .bundle-page-book {
+        margin: 5px 10px;
+    }
+    .bundle-page-book-name {
+        font-size: 13px;
+    }
+    .bundle-page-author-name {
+        margin-bottom: 8px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    
+    .bundle-page-book-name {
+        font-size: 10px;
+    }
+
+    .bundle-page-author-name {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,44 @@
+.Most-popular-section {
+    width: 100%;
+    height: auto;
+    background-color: #fcfcfc;
+    padding: 0 0 0 0;
+    overflow: hidden;
+}
+
+.Most-popular-section-container {
+    max-width: 85%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.most-popular-book-section-icon {
+    height: 30px;
+    width: auto;
+}
+
+.most-popular-book-section-heading {
+    font-size: 24px;
+    color:rgb(100, 100, 100);   
+}
+
+.mostPopularBooksList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@media only screen and (max-width:425px) {
+    .most-popular-book-section-icon-line{
+        text-align: left;
+    }
+    .most-popular-book-section-icon {
+        height: 25px;
+        width: auto;
+    }
+    .most-popular-book-section-heading {
+        text-align: left; 
+        font-size: 21px;  
+    }
+}

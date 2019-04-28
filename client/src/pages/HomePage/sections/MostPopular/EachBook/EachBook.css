@@ -1,0 +1,58 @@
+.Each-book-item {
+    display: inline-block;
+    width: 33.33%;
+    margin: 30px 0px;
+}
+
+@media only screen and (max-width:425px) {
+    .Each-book-item {
+        display: block;
+        width: 100%;
+    }
+}
+
+.each-book-item-card {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    text-align: left;
+}
+
+.popular-book-cover {
+    height: auto;
+    width: 90%;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0,0.3);
+}
+
+.popular-book-name {
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    word-spacing: 2px;
+    line-height: 20px;
+    color:#252525;
+}
+.popular-author-name {
+    margin-left: 8px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #808080;
+}
+
+.dowload-icon-name {
+    cursor: pointer;
+    font-size: 15px;
+    word-spacing: 3px;
+    margin-left: 4px;
+    color: #808080;
+}
+
+.popular-book-download-icon {
+    height:16px;
+    width: auto;
+    margin: 0 5px;
+}
+
+

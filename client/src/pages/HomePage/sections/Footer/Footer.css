@@ -1,0 +1,24 @@
+.Footer-section {
+    width: 100%;
+    padding: 20px;
+    height: auto;
+}
+
+.footer-text {
+    text-align: center;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.making-easy {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+@media only screen and (max-width:425px) {
+    .Footer-section {
+        padding: 20px 0px;
+    }
+}

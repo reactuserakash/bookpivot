@@ -1,0 +1,19 @@
+{
+  "name": "bookpivot",
+  "version": "1.0.0",
+  "description": "Free book download website",
+  "author": "Akash Debnath",
+  "license": "MIT",
+  "scripts": {
+    "server" : "nodemon server.js",
+    "start": "node server",
+    "client": "npm start --prefix client",
+    "heroku-postbuild" : "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.2",
+    "nodemon": "^1.18.4"
+  }
+}

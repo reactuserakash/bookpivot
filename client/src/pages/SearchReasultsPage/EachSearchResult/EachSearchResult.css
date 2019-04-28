@@ -1,0 +1,86 @@
+.each-search-result {
+    width: 45%;
+    display: inline-block;
+    margin: 2%;
+}
+
+.each-search-result-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.search-result-book-name {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.search-result-author-name {
+    font-size: 16px;
+    color: gray;
+    margin: 0;
+}
+
+.search-result-book-rating {
+    font-weight: 600;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.download-href-search {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.search-result-book-downloadlink {
+    font-size: 17px;
+    color: gray;
+    cursor: pointer;
+}
+
+.search-result-book-download-icon {
+    height: 17px;
+    width: auto;
+    margin: 0 5px;
+}
+
+.search-result-book-image {
+    width: 130px;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+}
+
+.hr-line {
+    margin: 10px 0;
+}
+
+@media only screen and (max-width:425px) {
+    .each-search-result {
+        display: block;
+        width: 100%;
+    }
+    .search-result-book-rating {
+        font-size: 14px;
+    }
+
+    .each-search-result-container {
+        display: grid;
+        grid-template-columns: 55% auto;
+    }
+
+    .search-result-book-name {
+        font-size: 20px;
+    }
+    
+    .search-result-author-name {
+        font-size: 14px;
+    }
+    
+    .search-result-book-rating {
+       font-size: 13px;
+    }
+
+    .search-result-book-image {
+        width: 110px;
+    }
+}

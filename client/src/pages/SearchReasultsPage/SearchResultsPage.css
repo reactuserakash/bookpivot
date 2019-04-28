@@ -1,0 +1,15 @@
+.Search-results-page {
+    max-width: 85%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.showing-top-results {
+    font-size: 20px;
+    color: grey;
+}
+
+.search-results-list {
+    list-style: none;
+    padding: 0;
+}

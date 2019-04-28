@@ -1,0 +1,94 @@
+.Heromain {
+    padding: 0;
+}
+
+.Hero-Container {
+    max-width: 85%;
+    margin: auto;
+    margin-top: 130px;
+}
+
+
+.text-1{
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    word-spacing: 1px;
+}
+
+.text-2  {
+    font-size: 27px;
+    color: #686868;
+    word-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.text-3 {
+    margin-top: 0;
+    font-size: 27px;
+    color: #686868;
+    word-spacing: 1px;
+}
+
+.search-box-1 {
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    font-size: 17px;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0,0.2);
+    transition: box-shadow 0.2s;
+}
+
+.search-button-1 {
+    color: #651fff;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0,0.2);
+    cursor: pointer;    
+}
+
+@media only screen and (max-width:425px) {
+    .Hero-Container {
+        margin-top: 0;
+        padding-top: 70px;
+    }
+    .search-box-1 {
+        width: 80%;
+    }
+
+    .text-1 {
+        font-size: 35px;
+    }
+    
+    .text-2,
+    .text-3 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .Hero-Container {
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .search-box-1 {
+        width: 80%;
+    }
+
+    .text-1 {
+        font-size: 32px;
+    }
+
+    .text-2,
+    .text-3 {
+        font-size: 22px;
+    }
+}
